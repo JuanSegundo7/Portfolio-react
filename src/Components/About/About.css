@@ -1,0 +1,103 @@
+#Principal, #Skills, #Welcome, #Contact, #Service{
+    width: 100%;
+    height: 100%;
+}
+
+#Principal, #Projects, #Contact{
+    background-color: #fafafa;
+}
+
+
+#Juanse-rigth, #Juanse-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+#Juanse-left div{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#Juanse-left h2{
+    margin: 1em 0;
+}
+
+#Juanse-left article{
+    height: 8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 8em;
+    width: 100%;
+    margin: 0.5em;
+    padding: 0 1em;
+    border-radius: 15px;
+    background-color: var(--green);
+    transition: 0.5s;
+    color: white;
+}
+
+#Juanse-left article:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.68) inset;
+
+}
+
+#Juanse-left svg{
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+}
+
+#Juanse{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#Juanse figure{
+    background-color: #23262a;
+    border-radius: 100%;
+    cursor: pointer;
+    width: 47vh;
+    height: 46vh;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    margin: 1em 3em 1em;
+}
+
+
+#Juanse figure:hover{
+    background-color: var(--green);
+}
+
+#Juanse img{
+    /* max-width: 114%;
+    max-height: 120%; */
+    width: 54vh;
+    height: 46vh;
+}
+
+@media (min-width: 768px) {
+
+    #Juanse-left div {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #Juanse{
+        flex-direction: row;
+    }
+
+}

@@ -1,0 +1,112 @@
+header{
+    box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
+    width: 100%;
+    background-color: #fafafa;
+    position: fixed;
+    height: 100px;
+    z-index: 97;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    color: var(--grey);  
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.active {
+    color: var(--green);
+}
+
+#nombre{
+    width: 100%;
+    flex: 1;
+    justify-content: flex-start;
+}
+
+#nombre figure{
+    background-color: #23262a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+    border-radius: 50%;
+    width: 2em;
+    padding: 2em;
+    height: 2em;
+}
+
+#nombre figure:hover{
+    background-color: var(--green);
+}
+
+#nombre h3{
+    color: #fff;
+}
+
+#rigth-side{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex: 1;
+}
+
+nav ul{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+
+nav li{
+    font-size: 16px;
+    padding: 0 0.5em;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:active{
+    color: var(--green);
+}
+
+a:hover{
+    color: var(--green);
+}
+
+#burger-article article{
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#mode{
+    flex: 1;
+    justify-content: right;
+}
+
+#sun{
+    font-size: 20px;
+    margin: 1em;
+    fill: #23262a;
+    transition: 0.5s ease-in-out;
+}
+
+#sun:hover{
+    color: var(--green);
+    transition: 0.5s ease-in-out;
+}

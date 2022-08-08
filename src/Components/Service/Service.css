@@ -1,0 +1,71 @@
+#Service{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#Service article{
+    width: 100%;
+    max-width: 25em;
+    display: flex;
+    padding: 1.5em;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+
+#Service article:hover > .service-logo{
+    fill: var(--green);
+}
+
+#Service article:hover > .view-more svg{
+    fill: var(--green);
+}
+
+#service-container{
+    display: flex;
+    width: 100%;
+    margin: 2em 0;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center
+}
+
+.view-more svg, .service-logo{
+    transition: 0.7s;
+}
+
+.service-logo{
+    width: 3em;
+    transition: 0.7s;
+
+}
+
+#Service p{
+    width: 93px;
+    margin: 0;
+}
+
+.view-more{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-more p{
+    width: 100%;
+}
+
+.view-more svg{
+    width: 10px;
+    margin: 0 0.5em;
+}
+
+@media (min-width: 768px) {    
+   #service-container{
+        flex-direction: row;
+    }
+}

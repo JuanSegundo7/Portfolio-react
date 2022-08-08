@@ -1,0 +1,74 @@
+#Skills, #Service{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#Skills article, #Service article{
+    height: 20em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
+}
+
+
+#Skills div > svg{
+    padding: 0 0.5em;
+}
+
+#Skills div:hover > svg{
+    color: var(--green);
+}
+
+#flex-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2em;
+}
+
+#p-container{
+    display: flex;
+    width: 100%;
+    margin: 2em 0;
+    justify-content: space-evenly;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.badges{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1em;
+    cursor: pointer;
+}
+
+@media (min-width: 400px){
+    .badges{
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 768px) {
+    
+    #Skills article{
+        margin: 0 1em;
+        width: 100%;
+        max-width: 25em;
+        padding: 1em;
+    }
+
+    #flex-skills{
+        flex-direction: row;
+    }
+}

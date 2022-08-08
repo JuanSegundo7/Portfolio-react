@@ -1,0 +1,145 @@
+
+#Contact{
+    padding: 0
+}
+
+#contact{
+    display: flex;
+    height: 100%;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    justify-content: space-around;
+    margin: 0 4em 3em 4em;
+    background-color: var(--green);
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex: 1 1;
+    height: 22em;
+    justify-content: space-between;
+}
+
+#contact svg{
+    width: 25px;
+    fill: #fff;
+}
+
+#information article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#information{
+    flex: 1 1;
+    display: flex;
+    margin: 1em 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#information p{
+    word-break: break-all;
+}
+
+#contact-form{
+    height: 100%;
+    width: 100%;
+    max-width: 22em;
+    flex: 1 1;
+}
+
+#Contact h1{
+    margin: 1em 0;
+}
+
+#Contact textarea,input:focus{
+    outline: none;
+}
+
+#Contact input{
+    padding: 0.2em 1em;
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+#Contact button{
+    background-color: #fff;
+    color: black;
+    height: 19px;
+    width: 10em;
+    border: none;
+    border-radius: 15px;
+}
+
+#Contact textarea{
+    width: 100%;
+    padding: 1em;
+    max-width: 30em;
+    height: 13em;
+    border-radius: 15px;
+    border: none;
+}
+
+#Contact h2{
+    color: #fff;
+}
+
+@media (min-width: 768px){
+    #contact{
+        height: 70vh;
+        border-radius: 15px;
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    #contact form{
+        width: 100%;
+    }
+
+    #Contact textarea{
+        width: 100%;
+        padding: 1em;
+        max-width: 30em;
+        height: 13em;
+        border-radius: 15px;
+        border: none;
+    }
+
+    #information{
+        margin: 0
+    }
+
+    #contact form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        flex: 1;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    #contact-form{
+        max-width: 100%;
+    }
+
+    #Contact input {
+        max-width: 30em;
+    }
+
+    #Contact h2{
+        position: relative;
+        top: 5em;
+        font-size: 30px;
+    }
+}
