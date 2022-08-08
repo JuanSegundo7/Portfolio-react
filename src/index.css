@@ -70,6 +70,10 @@ section{
   padding: 2em 1em;
 }
 
+figure{
+  margin :1em;
+}
+
 ul{
   list-style: none;
 }
