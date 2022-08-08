@@ -52,7 +52,6 @@ nav li{
     color:${({ theme }) => theme.white}
 }
 
-
 .flex-buttons button:hover {
     color:${({ theme }) => theme.terciary};
     background-color:${({ theme }) => theme.white} ;
@@ -76,6 +75,10 @@ nav li{
 
 #Contact{
     background-color:${({ theme }) => theme.terciary} ;
+}
+
+#contact{
+    background-color:${({ theme }) => theme.dark_green} ;
 }
 
 footer{
