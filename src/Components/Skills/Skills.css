@@ -1,13 +1,14 @@
-#Skills, #Service{
+#Skills{
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     flex-direction: column;
 }
 
-#Skills article, #Service article{
+#Skills article{
     height: 20em;
-    margin: 1em;
+    margin: 1em 0;
+    padding: 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;

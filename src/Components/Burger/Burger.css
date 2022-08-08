@@ -51,7 +51,7 @@
 }
 
 #mobile-nav article{
-    height: 30em;
+    height: 100vh;
     margin: 2em 0 0 0;
 }
 
@@ -63,8 +63,13 @@
     width: 100%;
 }
 
+#mobile-nav li{
+    font-size: 30px;
+}
+
 #mobile-nav div{
     display: flex;
+    height: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
