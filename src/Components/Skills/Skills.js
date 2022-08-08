@@ -17,7 +17,7 @@ const Skills = () => {
                         </div>
                         <div className="badges">
                             <FontAwesomeIcon icon="fa-circle-check" />
-                            <p>JAVASCRIPT FRONT</p>                    
+                            <p>JAVASCRIPT</p>                    
                         </div>
                         <div className="badges">
                             <FontAwesomeIcon icon="fa-circle-check" />
@@ -50,7 +50,7 @@ const Skills = () => {
                         </div>
                         <div className="badges">
                             <FontAwesomeIcon icon="fa-circle-check" />
-                            <p>JAVASCRIPT BACK</p>                    
+                            <p>MIDDLEWARES</p>                    
                         </div>
                         <div className="badges">
                             <FontAwesomeIcon icon="fa-circle-check" />
