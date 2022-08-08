@@ -2,6 +2,7 @@ footer{
     min-height: 50vh;
     background-color: #23262a;
     color: #fff;
+    padding: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
