@@ -59,6 +59,10 @@
     fill: #fff;
 }
 
+#Juanse-left p{
+    margin: 0.5em 0;
+}
+
 #Juanse{
     width: 100%;
     display: flex;
@@ -76,6 +80,8 @@
     overflow: hidden;
     transition: 0.5s
 }
+
+
 
 
 #Juanse figure:hover{
