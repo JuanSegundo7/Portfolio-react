@@ -4,7 +4,6 @@ import "./Burger.css"
 
 
 const Burger = (props) => {
-
     return (
         <nav id="mobile-nav" className={props.value ? "is-active" : null}>
             <article>
@@ -64,6 +63,7 @@ const Burger = (props) => {
                     >
                     Contact
                 </Link></li>
+                <a><li onClick={props.toggleTheme} >Color Theme</li></a>
             </div>
             </article>
         </nav>

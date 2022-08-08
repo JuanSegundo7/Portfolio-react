@@ -3,11 +3,6 @@
     height: 100%;
 }
 
-#Principal, #Projects, #Contact{
-    background-color: #fafafa;
-}
-
-
 #Juanse-rigth, #Juanse-left{
     display: flex;
     flex-direction: row;

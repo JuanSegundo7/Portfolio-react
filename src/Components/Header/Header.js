@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 import "./Header.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Toogle from '../Toggle/Toggle'
 import { Link } from "react-scroll";
 import Burger from "../Burger/Burger"
 
 
 
-const Header = () => {
+const Header = (props) => {
     const [value, setValue] = useState(false)
 
     let handleClick = () => {
@@ -91,11 +91,9 @@ const Header = () => {
                         <span></span>
                     </article>
                 </article>
-                <article id="mode" className="desktop-visible">
-                    <FontAwesomeIcon icon="fa-sun" id="sun"/>                
-                </article>
+                <Toogle theme={props.theme} toggleTheme={props.toggleTheme}/>
             </nav>
-            < Burger value={value} handleClick={handleClick}/>
+            < Burger value={value} handleClick={handleClick} theme={props.theme} toggleTheme={props.toggleTheme}/>
         </header>
     );
 }
