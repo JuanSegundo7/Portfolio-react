@@ -61,6 +61,10 @@ nav li{
     background-color:${({ theme }) => theme.grey} ;
 }
 
+.projects-article{
+    background-color:${({ theme }) => theme.green} ;
+}
+
 .view-more svg, .service-logo {
     fill:${({ theme }) => theme.green}
 }
@@ -73,7 +77,7 @@ nav li{
     background-color:${({ theme }) => theme.terciary} ;
 }
 
-#contact, .projects-article{
+#contact{
     background-color:${({ theme }) => theme.dark_green} ;
 }
 
