@@ -12,7 +12,7 @@ const About = () => {
     let about = ["I'm 22 years old & from Argentina", "I started to learn programmation in 2019 at UNLP Computer University", "In 2020 i did introduction course of HTML & CSS in Plataforma 5", "In 2021 i did the course of Web Full-Stack developer at Digital House"]
     let info 
 
-    if(state === 1){
+    if(state == 1){
         info = <InfoArticle array={about} setState={setState}/>
     }
 

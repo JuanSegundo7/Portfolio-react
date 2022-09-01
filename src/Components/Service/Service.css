@@ -37,6 +37,10 @@
     align-items: center
 }
 
+#service-container h3{
+    font-weight: 600;
+}
+
 .view-more svg, .service-logo{
     transition: 0.7s;
 }

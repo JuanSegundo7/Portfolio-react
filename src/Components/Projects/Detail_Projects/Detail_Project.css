@@ -1,0 +1,146 @@
+#Section{
+    padding: 2em;
+}
+
+#Section p{
+    margin: 0.5em 0;
+}
+
+#Container{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grey);
+    border-radius: 20px;
+    padding:2em;
+    margin-top: 2em;
+}
+
+.flex-article{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 2em 0;
+}
+
+.flex-sides{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 15px;
+    justify-content: center;
+    padding: 2em 0;
+}
+
+.flex-sides p{
+    width: 60%;
+}
+
+.flex-sides li{
+    text-align: center;
+    margin: 0.3em 0;
+}
+
+.flex-title{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-title svg{
+    margin: 0 1em;
+    width: 2em;
+    fill: var(--green);
+}
+
+#buttons{
+    padding: 1em;
+}
+
+#buttons button{
+    padding: 0.5em 3em;
+}
+
+#left-side-article, #rigth-side-article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+    font-size: 17px;
+}
+
+#rigth-side-article{
+    padding: 1em;
+}
+
+#front, #back{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+#left-side-article figure{
+    max-width: 40em;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    margin: 0;
+}
+
+#left-side-article img{
+    border-radius: 15px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .flex-article{
+        margin: 0;
+    }
+
+    .flex-article, .flex-sides{
+        flex-direction: row;
+    }
+
+    #left-side-article, #rigth-side-article{
+        width: 49.5%;
+    }
+
+    #rigth-side-article{
+        font-size: 20px;
+    }
+
+    .flex-sides{
+        margin: 2em 0;
+        padding: 2em;
+        font-size: 20px;
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 1000px) {
+    #rigth-side-article{
+        font-size: 25px;
+    }
+
+    #back, #front{
+        margin: 0;
+    }
+}

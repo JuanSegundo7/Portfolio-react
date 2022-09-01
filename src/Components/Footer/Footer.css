@@ -1,6 +1,6 @@
 footer{
     min-height: 50vh;
-    background-color: #23262a;
+    background-color: var(--grey);
     color: #fff;
     padding: 1em;
     display: flex;

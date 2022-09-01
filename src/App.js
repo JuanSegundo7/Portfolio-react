@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Components/Header/Header'
-import Home from './Components/Home/Home';
+import Switch from './Components/Switch/Switch';
 import Footer from './Components/Footer/Footer';
 import {BrowserRouter as Router} from 'react-router-dom';
 import styled, { ThemeProvider } from "styled-components";
@@ -29,7 +29,9 @@ function App() {
       <GlobalStyles />
       <Router>
         <Header theme={theme} toggleTheme={toggleTheme}/>
-          <Home />
+        <main>
+          <Switch />
+        </main>
         <Footer />
       </Router>
     </Container>

@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import "./Header.css"
 import Toogle from '../Toggle/Toggle'
 import { Link } from "react-scroll";
+import {Link as Navigator} from "react-router-dom"
 import Burger from "../Burger/Burger"
 
 
@@ -25,14 +26,17 @@ const Header = (props) => {
                             duration={500}
                             offset={-100}
                             >
-                    <figure>
-                        <h3>JSM</h3>
-                    </figure>
+                    <Navigator to="/">
+                        <figure>
+                            <h3>JSM</h3>
+                        </figure>
+                    </Navigator>
                     </Link>
                 </article>
                 <article id="rigth-side" className="desktop-visible">
                     <ul>
-                        <li><Link
+                        <li>
+                            <Link
                             activeClass="active"
                             to="Principal"
                             spy={true}
@@ -41,8 +45,10 @@ const Header = (props) => {
                             offset={-100}
                             >
                             About
-                        </Link></li>
-                        <li><Link
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
                             activeClass="active"
                             to="Skills"
                             spy={true}
@@ -50,9 +56,11 @@ const Header = (props) => {
                             duration={500}
                             offset={-100}
                             >
-                            Skills
-                        </Link></li>
-                        <li><Link
+                                Skills
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
                             activeClass="active"
                             to="Projects"
                             spy={true}
@@ -60,9 +68,11 @@ const Header = (props) => {
                             duration={500}
                             offset={-100}
                             >
-                            Projects
-                        </Link></li>
-                        <li><Link
+                                Projects
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
                             activeClass="active"
                             to="Service"
                             spy={true}
@@ -70,9 +80,11 @@ const Header = (props) => {
                             duration={500}
                             offset={-100}
                             >
-                            Service
-                        </Link></li>
-                        <li><Link
+                                Services
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
                             activeClass="active"
                             to="Contact"
                             spy={true}
@@ -80,8 +92,9 @@ const Header = (props) => {
                             duration={500}
                             offset={-100}
                             >
-                            Contact
-                        </Link></li>
+                                Contact
+                            </Link>
+                        </li>
                     </ul>
                 </article>
                 <article className="mobile-visible" id="burger-article">

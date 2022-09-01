@@ -19,7 +19,7 @@ header{
     background-color:${({ theme }) => theme.primary} ;   
 }
 
-nav li{
+nav a{
     color:${({ theme }) => theme.white} ;   
 }
 
