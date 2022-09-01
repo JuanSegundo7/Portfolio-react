@@ -1,7 +1,6 @@
 import React from 'react';
 import "./Detail_Project.css"
 import Colombus from "../imgs/instrumentos-react-preview.png"
-import Slider from "../../Slider/Slider"
 
 const DetailProject = (props) => {
     window.scrollTo(0,0)
