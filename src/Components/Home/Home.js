@@ -7,9 +7,11 @@ import Skills from "../Skills/Skills"
 import Service from "../Service/Service"
 import Project from "../Projects/ProjectsMap"
 import Contact from "../Contact/Contact"
+import Certifications from "../Certifications/Certifications"
 
 
-const Home = () => {
+
+const Home = (props) => {
     window.scrollTo(0, 0)
     return (
         <React.Fragment>
@@ -35,6 +37,7 @@ const Home = () => {
             </section>
             <About />
             <Skills />
+            <Certifications theme={props.theme} />
             <Project />
             <Service />
             <Contact />

@@ -23,7 +23,7 @@ nav a{
     color:${({ theme }) => theme.white} ;   
 }
 
-#Principal, #Skills article, #Projects, #Service article{
+#Principal, #Skills article, #Projects, #Service article, #Certifications article{
   background-color:${({ theme }) => theme.terciary} ;
 }
 
@@ -43,13 +43,17 @@ nav a{
     background-color:${({ theme }) => theme.primary} ;
 }
 
-#wrapper-container {
+#wrapper-container, #wrapper-container-img {
     background-color:${({ theme }) => theme.dark_green} ;
 }
 
 .flex-buttons button {
     background-color:${({ theme }) => theme.terciary};
     color:${({ theme }) => theme.white}
+}
+
+#buttons button {
+    background-color:${({ theme }) => theme.green};
 }
 
 .flex-buttons button:hover {
@@ -73,7 +77,7 @@ nav a{
     fill:${({ theme }) => theme.white}
 }
 
-#Contact{
+#Contact, footer, #Container {
     background-color:${({ theme }) => theme.terciary} ;
 }
 
@@ -81,9 +85,6 @@ nav a{
     background-color:${({ theme }) => theme.dark_green} ;
 }
 
-footer{
-    background-color:${({ theme }) => theme.terciary} ;
-}
 
 `
 

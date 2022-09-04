@@ -9,11 +9,11 @@ const Service = () => {
     let back = ["Express Backend","Creation of APIs endpoints", "Connection with databases & Front side", "Form & Login Validations", "Customs Middlewares"]
     let info
 
-    if(state === 1){
-        info = <InfoArticle array={front} setState={setState} title={"Front-end"}/>
-    }else if(state === 2){
-        info = <InfoArticle array={back} setState={setState} title={"Back-end"}/>
-    }
+        if(state === 1){
+            info = <InfoArticle array={front} setState={setState} title={"Front-end"}/>
+        }else if(state === 2){
+            info = <InfoArticle array={back} setState={setState} title={"Back-end"}/>
+        }
 
     return (
         <React.Fragment>

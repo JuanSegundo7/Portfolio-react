@@ -30,7 +30,7 @@ function App() {
       <Router>
         <Header theme={theme} toggleTheme={toggleTheme}/>
         <main>
-          <Switch />
+          <Switch theme={theme} />
         </main>
         <Footer />
       </Router>

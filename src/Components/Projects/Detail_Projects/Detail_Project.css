@@ -91,9 +91,14 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin: 1em 0;
     align-items: center;
     border-radius: 20px;
     justify-content: center;
+}
+
+.dependecies h3{
+    margin: 1em 0;
 }
 
 #left-side-article figure{

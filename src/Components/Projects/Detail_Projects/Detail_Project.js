@@ -12,7 +12,6 @@ const DetailProject = (props) => {
 
     return (
         <section id="Section">
-            <h1>{props.title}</h1>
             <article id="Container">
                 <article className="flex-article">
                     <article id="left-side-article">
