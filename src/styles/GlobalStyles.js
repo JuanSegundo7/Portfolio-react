@@ -43,7 +43,7 @@ nav a{
     background-color:${({ theme }) => theme.primary} ;
 }
 
-#wrapper-container, #wrapper-container-img {
+#wrapper-container{
     background-color:${({ theme }) => theme.dark_green} ;
 }
 
@@ -77,7 +77,7 @@ nav a{
     fill:${({ theme }) => theme.white}
 }
 
-#Contact, footer, #Container {
+#Contact, footer, #Container, #wrapper-container-img  {
     background-color:${({ theme }) => theme.terciary} ;
 }
 

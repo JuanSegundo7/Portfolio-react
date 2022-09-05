@@ -21,7 +21,7 @@ const Certifications = (props) => {
     if(state === 1){
         info = <InfoImgs img={Diploma} setState={setState}/>
     }else if(state === 2){
-        info = <InfoImgs diploma={"Diploma Henry its in progress.. Come back soon!"} setState={setState} />
+        info = <InfoImgs diploma={"Henry Diploma its in progress.. Come back soon!"} setState={setState} />
     }
 
     
@@ -32,7 +32,7 @@ const Certifications = (props) => {
         <div id="Certifications-container">
             <article onClick={() => setState(1)}>
                 <figure>
-                    <img src={props.theme == "light" ? Digital : Digital_black } id="henry" />
+                    <img src={props.theme === "light" ? Digital : Digital_black } id="henry" />
                 </figure>
                 <div className="view-more">
                     <p>view more</p>
@@ -41,7 +41,7 @@ const Certifications = (props) => {
             </article>
             <article onClick={() => setState(2)}>
                 <figure>
-                    <img src={props.theme == "light" ? Henry : Henry_black } id="henry" />
+                    <img src={props.theme === "light" ? Henry : Henry_black } id="henry" />
                 </figure>
                 <div className="view-more">
                     <p>view more</p>
