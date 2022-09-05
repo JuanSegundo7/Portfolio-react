@@ -32,6 +32,17 @@ const Burger = (props) => {
                 </Link></li>
                 <li><Link
                     activeClass="active"
+                    to="Certifications"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    offset={-100}
+                    onClick={props.handleClick}
+                    >
+                    Certifications
+                </Link></li>
+                <li><Link
+                    activeClass="active"
                     to="Projects"
                     spy={true}
                     smooth={true}
