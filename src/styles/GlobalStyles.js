@@ -39,7 +39,7 @@ nav a{
     fill: ${({ theme }) => theme.green} ;
 }
 
-#Juanse figure
+#Juanse figure {
     background-color:${({ theme }) => theme.primary} ;
 }
 
