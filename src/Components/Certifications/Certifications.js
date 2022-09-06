@@ -11,10 +11,6 @@ import "./Certifications.css"
 
 const Certifications = (props) => {
     const [state, setState] = useState(false)
-    console.log(props.theme)
-    console.log(Digital)
-    console.log(Digital_black)
-
 
     let info
 

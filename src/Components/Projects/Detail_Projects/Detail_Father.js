@@ -18,6 +18,10 @@ const DetailFather = () => {
         front={object.front}
         backDepends={object.backDepends}
         frontDepends={object.frontDepends}
+        color={object.color}
+        img={object.img}
+        github={object.github}
+        demo={object.demo}
         />
     );
 }

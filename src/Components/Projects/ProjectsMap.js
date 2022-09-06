@@ -15,6 +15,8 @@ const DetailFather = () => {
                     id={instrumentos.id}
                     title={instrumentos.title}
                     info={instrumentos.info}
+                    img={instrumentos.img}
+                    color={instrumentos.color}
                     />
                 })}
             </article>
