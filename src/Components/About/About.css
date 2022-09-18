@@ -42,10 +42,9 @@
     color: white;
 }
 
-#Juanse-left article:hover{
+.Curriculum:hover{
     cursor: pointer;
     box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.68) inset;
-
 }
 
 #Juanse-left svg{
@@ -75,9 +74,6 @@
     overflow: hidden;
     transition: 0.5s
 }
-
-
-
 
 #Juanse figure:hover{
     background-color: var(--green);

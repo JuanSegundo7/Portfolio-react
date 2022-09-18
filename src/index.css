@@ -86,7 +86,7 @@ ul{
   list-style: none;
 }
 
-#Contact button:hover, #Certifications article, #mobile-nav a, #flex-navbar a:hover, #logos-footer svg:hover, #Service article, #sun:hover, nav li, #nombre figure:hover, #wrapper-x svg:hover, #Juanse-left article:hover, .button:hover, #logos svg:hover, .flex-buttons button:hover{
+#Contact button:hover, #Certifications article, #mobile-nav a, #flex-navbar a:hover, #logos-footer svg:hover, #Service article, #sun:hover, nav li, #nombre figure:hover, #wrapper-x svg:hover, .button:hover, #logos svg:hover, .flex-buttons button:hover{
   cursor: pointer;
 }
 
