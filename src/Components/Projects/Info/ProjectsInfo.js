@@ -12,7 +12,7 @@ const projects = [
         color: "grey",
         img: "instrumentos-react-preview.png",
         github: "https://github.com/JuanSegundo7/instrumentos-front",
-        demo: "https://instrumentoss.herokuapp.com/"
+        demo: "https://colombus.vercel.app/"
     },
     {
         id: 2,
