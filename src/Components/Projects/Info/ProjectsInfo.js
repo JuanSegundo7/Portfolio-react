@@ -25,6 +25,19 @@ const projects = [
         github: "https://github.com/JuanSegundo7/Rick-and-Morty",
         demo: "https://rick-and-morty-juanse.vercel.app/"
     },
+    {
+        id: 3,
+        title: "PI DOGS - HENRY",
+        info: "This is one of the final proyects that i made in Henry, in particular, this was a individual proyect in React with Redux and Postgresql, where they evaluated how were my skills in Front and Back with an Dogs Api - https://thedogapi.com/",
+        front:"It was made with React Framework and Redux",
+        back:"The back side is composed by Express and Postgresql",
+        backDepends:["Express","Postgresql"],
+        frontDepends:["React-router-dom", "Redux", "React"],
+        color: "grey",
+        img: "dogs-preview.png",
+        github: "https://github.com/JuanSegundo7/PI-Dogs-Front",
+        demo: "https://pi-dogs-jsm.vercel.app//"
+    },
 ]
 
 export default projects
