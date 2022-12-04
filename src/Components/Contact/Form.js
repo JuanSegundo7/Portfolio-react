@@ -5,7 +5,7 @@ const Form = () => {
     const [state, handleSubmit] = useForm("mrgdzwjg");
 
     if (state.succeeded) {
-        return <h2>Tu mensaje ha sido enviado con exito! :)</h2>;
+        return <h2>The message was sent! Have a good day :)</h2>;
     }
     
     return (
