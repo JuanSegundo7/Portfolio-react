@@ -8,17 +8,19 @@ const DetailFather = () => {
     return (
         <section id="Projects">
             <h1>Projects</h1>
-            <article id="flex-projects">
-                {ProjectInfo.map((instrumentos, i) => {
-                    return <Projects
-                    key={instrumentos + i}
-                    id={instrumentos.id}
-                    title={instrumentos.title}
-                    info={instrumentos.info}
-                    img={instrumentos.img}
-                    color={instrumentos.color}
-                    />
-                })}
+            <article id="flex-container-projects">
+                <article id="flex-projects">
+                    {ProjectInfo.map((instrumentos, i) => {
+                        return <Projects
+                        key={instrumentos + i}
+                        id={instrumentos.id}
+                        title={instrumentos.title}
+                        info={instrumentos.info}
+                        img={instrumentos.img}
+                        color={instrumentos.color}
+                        />
+                    })}
+                </article>
             </article>
         </section>
     );

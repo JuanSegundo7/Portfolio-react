@@ -38,6 +38,19 @@ const projects = [
         github: "https://github.com/JuanSegundo7/PI-Dogs-Front",
         demo: "https://pi-dogs-jsm.vercel.app//"
     },
+    {
+        id: 4,
+        title: "Tiger Coffee - HENRY",
+        info: "Tiger Coffee is the final proyect that i made in Henry. Tiger Coffee is an ecommerce that we made in group, my responsability was the esthetic of the place and a lot of the front side, like html structure, dashboard, etc.",
+        front:"It was made with React Framework, Redux and Material-UI for the dashboard",
+        back:"The back side was made with Express and Mongo DB",
+        backDepends:["Express","Mongo DB"],
+        frontDepends:["React-router-dom", "Redux", "React", "Material-UI"],
+        color: "green",
+        img: "tiger_coffee_preview.png",
+        github: "https://github.com/JuanSegundo7/Final_Proyect",
+        demo: "https://tigercoffee.vercel.app/"
+    }
 ]
 
 export default projects

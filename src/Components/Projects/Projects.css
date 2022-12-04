@@ -2,6 +2,12 @@
     width: 100%;
 }
 
+#flex-container-projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 #flex-projects{
     width: 100%;
     display: flex;
@@ -81,5 +87,7 @@
     
     #flex-projects{
         flex-direction: row;
+        width: 68%;
+        margin: 2em 0;
     }
 }

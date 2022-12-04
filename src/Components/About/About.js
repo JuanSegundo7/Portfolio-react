@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./About.css"
 import Juanse from "./imgs/Juanse-sinFondo.png"
 import InfoArticle from "../InfoArticle/infoArticle"
-import CurriculumSpanish from "./CurriculumJuanSegundoFinal.pdf"
+import CurriculumSpanish from "./CurriculumJuanSegundoEspañol.pdf"
 import CurriculumEnglish from "./CvJuanSegundoEnglish.pdf"
 
 
