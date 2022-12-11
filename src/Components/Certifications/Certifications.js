@@ -6,6 +6,7 @@ import Henry_black from "./imgs/soyHenry-black.png"
 
 import InfoImgs from "../InfoArticle/infoImgs"
 import Diploma from "./imgs/diploma-1.png"
+import Diploma2 from "./imgs/diploma-2.png"
 import "./Certifications.css"
 
 
@@ -17,7 +18,7 @@ const Certifications = (props) => {
     if(state === 1){
         info = <InfoImgs img={Diploma} setState={setState}/>
     }else if(state === 2){
-        info = <InfoImgs diploma={"Henry Diploma its in progress.. Come back soon!"} setState={setState} />
+        info = <InfoImgs img={Diploma2} setState={setState} />
     }
 
     

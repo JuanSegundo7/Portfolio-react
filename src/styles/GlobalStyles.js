@@ -71,6 +71,7 @@ nav a{
 
 .projects-article{
     background-color:${({ theme }) => theme.green} ;
+    border:${"1px solid #fff"}
 }
 
 .view-more svg, .service-logo {
