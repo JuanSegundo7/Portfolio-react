@@ -21,7 +21,7 @@ const Skills = () => {
                         </div>
                         <div className="badges">
                             <FontAwesomeIcon icon="fa-circle-check" />
-                            <p>GATSBY</p>
+                            <p>AUTH0</p>
                         </div>
                     </div>
                     <div>
@@ -35,7 +35,7 @@ const Skills = () => {
                         </div>
                         <div className="badges">
                             <FontAwesomeIcon icon="fa-circle-check" />
-                            <p>NEXT.JS</p>
+                            <p>CLOUDINARY</p>
                         </div>
                     </div>
                 </div>
@@ -50,11 +50,11 @@ const Skills = () => {
                         </div>
                         <div className="badges">
                             <FontAwesomeIcon icon="fa-circle-check" />
-                            <p>MIDDLEWARES</p>                    
+                            <p>MONGOOSE</p>                    
                         </div>
                         <div className="badges">
                             <FontAwesomeIcon icon="fa-circle-check" />
-                            <p>MULTER</p>
+                            <p>MONGO</p>
                         </div>
                     </div>
                     <div>
@@ -69,6 +69,10 @@ const Skills = () => {
                         <div className="badges">
                             <FontAwesomeIcon icon="fa-circle-check" />
                             <p>MYSQL</p>
+                        </div>
+                        <div className="badges">
+                            <FontAwesomeIcon icon="fa-circle-check" />
+                            <p>POSTGRESQL</p>
                         </div>
                     </div>
                 </div>
