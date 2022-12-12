@@ -3,14 +3,14 @@ import "./About.css"
 import Juanse from "./imgs/Juanse-sinFondo.png"
 import InfoArticle from "../InfoArticle/infoArticle"
 import CurriculumSpanish from "./CurriculumJuanSegundoEspañol.pdf"
-import CurriculumEnglish from "./CvJuanSegundoEnglish.pdf"
+import CurriculumEnglish from "./CurriculumJuanSegundoEnglish.pdf"
 
 
 
 const About = () => {
     const [state, setState] = useState(false)
 
-    let about = ["I'm 22 years old & from Argentina", "I started to learn programmation in 2019 at UNLP Computer University", "In 2020 i did introduction course of HTML & CSS in Plataforma 5", "In 2021 i did the course of Web Full-Stack developer at Digital House"]
+    let about = ["I'm 23 years old & from Argentina", "I started to learn programmation in 2019 at UNLP Computer University", "In 2020 i did introduction course of HTML & CSS in Plataforma 5", "In 2021 i did the course of Web Full-Stack developer at Digital House"]
     let info 
 
     if(state === 1){
