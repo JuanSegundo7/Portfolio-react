@@ -19,6 +19,10 @@
     margin-top: 2em;
 }
 
+#front p, #back p{
+    color: #000;
+}
+
 .flex-article{
     display: flex;
     flex-direction: column;
@@ -39,6 +43,7 @@
     border-radius: 15px;
     justify-content: center;
     padding: 2em 0;
+    background-color: #fff;
 }
 
 .flex-sides p{
@@ -46,8 +51,19 @@
 }
 
 .flex-sides li{
-    text-align: center;
+    text-align: left;
     margin: 0.3em 0;
+    list-style-type: none;
+    color: #000;
+}
+
+.flex-sides li::before{
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #34ac30b2; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; 
 }
 
 .flex-title{
@@ -66,16 +82,26 @@
     height: 5em;
 }
 
-#Container svg{
+#a-back svg{
     margin: 2em 0;
     width: 2em;
     fill: #fff;
+    transition: 0.5s;
+}
+
+#a-back a:hover{
+    transition: 0.5s;
+    fill: #34ac30b2;
 }
 
 .flex-title svg{
     margin: 0 1em;
     width: 2em;
-    fill: #fff;
+    fill: #34ac30b2;
+}
+
+.flex-title h2{
+    color: #000;
 }
 
 #buttons{
@@ -111,7 +137,8 @@
 }
 
 .dependecies h3{
-    margin: 1em 0;
+    margin: 0.5em 0;
+    color: #000;
 }
 
 #left-side-article figure{

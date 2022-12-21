@@ -56,6 +56,10 @@ const Skills = () => {
                             <FontAwesomeIcon icon="fa-circle-check" />
                             <p>MONGO</p>
                         </div>
+                        <div className="badges">
+                            <FontAwesomeIcon icon="fa-circle-check" />
+                            <p>MVC</p>
+                        </div>
                     </div>
                     <div>
                         <div className="badges">
