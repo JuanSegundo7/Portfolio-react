@@ -23,7 +23,7 @@ const DetailProject = (props) => {
                             </article>
                             <p>{props.back}</p>
                             <article className="dependecies">
-                                <h3>Dependencies i used</h3>
+                                <h3>Dependencies</h3>
                                 <ul>{back}</ul>
                             </article>
                         </article>
@@ -59,7 +59,7 @@ const DetailProject = (props) => {
                         </article>
                         <p>{props.front}</p>
                         <article className="dependecies">
-                            <h3>Dependencies i used</h3>
+                            <h3>Dependencies</h3>
                             <ul>{front}</ul>
                         </article>
                     </article>
