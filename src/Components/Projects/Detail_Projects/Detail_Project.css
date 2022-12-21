@@ -1,5 +1,5 @@
 #Section{
-    padding: 2em;
+    padding: 1em;
 }
 
 #Section p{
@@ -56,6 +56,20 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+#a-back{
+    width: 100%;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    height: 5em;
+}
+
+#Container svg{
+    margin: 2em 0;
+    width: 2em;
+    fill: #fff;
 }
 
 .flex-title svg{
@@ -115,17 +129,28 @@
     width: 100%;
 }
 
+@media (min-width: 550px){
+    #buttons button{
+        padding: 0.5em 4em;
+    }
+}
+
 @media (min-width: 768px) {
     .flex-article{
         margin: 0;
     }
 
-    .flex-article, .flex-sides{
+    .flex-sides{
         flex-direction: row;
     }
 
-    #left-side-article, #rigth-side-article{
+    /* #left-side-article, #rigth-side-article{
         width: 49.5%;
+    } */
+
+    #buttons button {
+        font-size: 15px;
+        padding: 0.5em 4em;
     }
 
     #rigth-side-article{
@@ -147,5 +172,9 @@
 
     #back, #front{
         margin: 0;
+    }
+
+    #left-side-article figure {
+        max-width: 100%; 
     }
 }
