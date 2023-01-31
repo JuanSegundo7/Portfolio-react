@@ -8,6 +8,7 @@ const DetailFather = () => {
     return (
         <section id="Projects">
             <h1>Projects</h1>
+            <div className="max-width">
             <article id="flex-container-projects">
                 <article id="flex-projects">
                     {ProjectInfo.map((instrumentos, i) => {
@@ -22,6 +23,7 @@ const DetailFather = () => {
                     })}
                 </article>
             </article>
+            </div>
         </section>
     );
 }

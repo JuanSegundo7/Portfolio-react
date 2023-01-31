@@ -21,6 +21,7 @@ const About = () => {
         <React.Fragment>
         <section id="Principal">
                 <h1>About me</h1>
+                <div className="max-width">
                 <article id="Juanse">
                     <article id="Juanse-rigth">
                         <figure onClick={() => setState(1)}>
@@ -53,6 +54,7 @@ const About = () => {
                         </div>
                     </article>
                 </article>
+                </div>
         </section>
         {info}
         </React.Fragment>

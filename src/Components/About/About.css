@@ -57,6 +57,12 @@
     margin: 0.5em 0;
 }
 
+.max-width{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 #Juanse{
     width: 100%;
     display: flex;
@@ -96,4 +102,10 @@
         flex-direction: row;
     }
 
+}
+
+@media (min-width: 1500px) {
+    #Juanse{
+        max-width: 1600px;
+    }
 }

@@ -104,3 +104,9 @@
         margin: 2em 0;
     }
 }
+
+@media (min-width: 1400px) {
+    #flex-projects{
+        max-width: 1400px;
+    }
+}
