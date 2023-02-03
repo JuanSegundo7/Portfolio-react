@@ -6,8 +6,7 @@
 }
 
 #Service article{
-    width: 100%;
-    max-width: 20em;
+    width: 90%;
     height: 20em;
     display: flex;
     padding: 1.5em;
@@ -76,6 +75,8 @@
 @media (min-width: 768px) {    
    #service-container{
         flex-direction: row;
+        justify-content: center;
+        gap: 3em;
     }
 
     #Service article{

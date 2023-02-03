@@ -10,11 +10,13 @@
 
 #flex-projects{
     width: 100%;
+    max-width: 1400px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
+
 }
 
 .projects-article{
@@ -96,17 +98,18 @@
 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
     
     #flex-projects{
         flex-direction: row;
-        width: 100%;
         margin: 2em 0;
+        justify-content: center;
+        gap: 3em;
     }
 }
 
 @media (min-width: 1400px) {
     #flex-projects{
-        max-width: 1400px;
+        justify-content: center;
     }
 }

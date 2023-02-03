@@ -1,3 +1,7 @@
+#burger{
+    z-index: 99;
+}
+
 #burger > span{
     display: block;
     width: 28px;
@@ -15,9 +19,12 @@
 }
 
 #burger.active{
-    transition-delay: 0.4s;
+    transition-delay: 0.1s;
     transform: rotate(45deg);
-    z-index: 99;
+}
+
+#burger.active > span{
+    background-color: #fff;
 }
 
 #burger.active > span:nth-child(2){
@@ -26,7 +33,7 @@
 
 #burger.active > span:nth-child(1),
 #burger.active > span:nth-child(3){
-    transition-delay: 0.5s;
+    transition-delay: 0.2s;
 }
 
 #burger.active > span:nth-child(1){
