@@ -61,6 +61,25 @@ const projects = [
     github: "https://github.com/JuanSegundo7/instrumentos-front",
     demo: "https://colombus.vercel.app/",
   },
+  {
+    id: 5,
+    title: "Loop Mania",
+    info: "Loop mania is a Gif seeker where you can find Gifs of any topic, it has a trending system where you can see the most important gifs of the moment, also it has a bookmark and share system, so you can share it with anyone you want. You can look at your saved gifs in your profile",
+    front:
+      "It was made with React, Redux, Typescript, Material UI, Auth0 and Axios",
+    frontDepends: [
+      "React",
+      "Redux",
+      "Typescript",
+      "Material UI",
+      "Auth0",
+      "Axios",
+    ],
+    color: "green",
+    img: "loop-mania-preview.png",
+    github: "https://github.com/JuanSegundo7/LoopMania",
+    demo: "https://loop-mania.vercel.app/",
+  },
 ];
 
 export default projects;
