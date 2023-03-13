@@ -1,6 +1,25 @@
 const projects = [
   {
     id: 1,
+    title: "Loop Mania",
+    info: "Loop mania is a Gif seeker where you can find Gifs of any topic, it has a trending system where you can see the most important gifs of the moment, also it has a bookmark and share system, so you can share it with anyone you want. You can look at your saved gifs in your profile",
+    front:
+      "It was made with React, Redux, Typescript, Material UI, Auth0 and Axios",
+    frontDepends: [
+      "React",
+      "Redux",
+      "Typescript",
+      "Material UI",
+      "Auth0",
+      "Axios",
+    ],
+    color: "green",
+    img: "loop-mania-preview.png",
+    github: "https://github.com/JuanSegundo7/LoopMania",
+    demo: "https://loop-mania.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Tiger Coffee - HENRY",
     info: "Tiger Coffee is the final proyect that i made in Henry. Tiger Coffee is an ecommerce that we made in group, my responsability was the esthetic of the place and a lot of the front side, like html structure, dashboard, etc.",
     front:
@@ -14,7 +33,7 @@ const projects = [
     demo: "https://tigercoffee.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "PI DOGS - HENRY",
     info: "This is one of the final proyects that i made in Henry, in particular, this was a individual proyect in React with Redux and Postgresql, where they evaluated how were my skills in Front and Back with an Dogs Api - https://thedogapi.com/",
     front: "It was made with React Framework and Redux",
@@ -27,7 +46,7 @@ const projects = [
     demo: "https://pi-dogs-jsm.vercel.app//",
   },
   {
-    id: 3,
+    id: 4,
     title: "Rick and Morty Api",
     info: "Rick & Morty Api is a project where i practiced Api Fetch, using differents hooks like useEffect & useState, im very happy with the result because i did it in a few days only! Motivating myself to keep practicing React and all it structure",
     front:
@@ -39,7 +58,7 @@ const projects = [
     demo: "https://rick-and-morty-juanse.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Colombus music",
     info: "Colombus music is a ecommerce project where i created the Front & Back sides in differents repositories, giving me the chance to practice the conextion between Front and Back with Apis. It was a challenge just for the fact of creating all from 0, Front (styles, components), Back (Entry Point, MVC, HTTP request, Connection with Database), Database (Sequelize) and Deploying it in Heroku",
     front:
@@ -60,25 +79,6 @@ const projects = [
     img: "instrumentos-react-preview.png",
     github: "https://github.com/JuanSegundo7/instrumentos-front",
     demo: "https://colombus.vercel.app/",
-  },
-  {
-    id: 5,
-    title: "Loop Mania",
-    info: "Loop mania is a Gif seeker where you can find Gifs of any topic, it has a trending system where you can see the most important gifs of the moment, also it has a bookmark and share system, so you can share it with anyone you want. You can look at your saved gifs in your profile",
-    front:
-      "It was made with React, Redux, Typescript, Material UI, Auth0 and Axios",
-    frontDepends: [
-      "React",
-      "Redux",
-      "Typescript",
-      "Material UI",
-      "Auth0",
-      "Axios",
-    ],
-    color: "green",
-    img: "loop-mania-preview.png",
-    github: "https://github.com/JuanSegundo7/LoopMania",
-    demo: "https://loop-mania.vercel.app/",
   },
 ];
 
