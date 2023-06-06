@@ -6,18 +6,19 @@
 
 #Welcome{
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
 }
 
 #salute{
-    text-align: left;
+    margin-top: 1em;
+    text-align: center;
 }
 
 #Welcome h1{
-    font-size: 45px
+    font-size: 35px
 }
 
 #Welcome h2{
@@ -28,8 +29,8 @@
 #logos{
     display: flex;
     margin: 0 2em;
-    flex-direction: column;
-    height: 4em;
+    flex-direction: row;
+    width: 4em;
     justify-content: space-between;
 }
 
@@ -42,6 +43,30 @@
     fill: var(--green);
 }
 
+@media (min-width: 600px) {
+    #Welcome{
+        flex-direction: row;
+    }
 
+    #salute{
+        text-align: left;
+        margin-top: 0em;
+    }
+    
+    #logos{
+        flex-direction: column;
+        height: 4em;
+        margin: 0 2em;
+        width: 2em;
+    }
+
+    #Welcome h1{
+        font-size: 45px
+    }
+    
+    #Welcome h2{
+        font-size: 30px;
+    }
+}
 
 

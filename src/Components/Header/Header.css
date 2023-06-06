@@ -24,6 +24,7 @@ nav{
     align-items: center;
     margin-inline: auto;
     justify-content: center;
+    max-width: 1600px;
 }
 
 .active {
