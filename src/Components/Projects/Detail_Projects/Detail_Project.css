@@ -163,6 +163,11 @@
 }
 
 @media (min-width: 768px) {
+
+    .flex-article{
+        flex-direction: row;
+    }
+
     .flex-article{
         margin: 0;
     }
@@ -171,9 +176,6 @@
         flex-direction: row;
     }
 
-    /* #left-side-article, #rigth-side-article{
-        width: 49.5%;
-    } */
 
     #buttons button {
         font-size: 15px;
