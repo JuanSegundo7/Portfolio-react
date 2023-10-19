@@ -1,6 +1,28 @@
 const projects = [
   {
     id: 1,
+    title: "Imagino",
+    info: "Imagino is an AI image generator where with different type of filters, you can create images and download them in your favorite extension",
+    front: "It was made with Next.js, Typescript and Tailwind",
+    frontDepends: ["Next.js", "Tailwind", "Typescript"],
+    color: "green",
+    img: "imagino-preview.png",
+    github: "https://github.com/JuanSegundo7/Imagino",
+    demo: "https://imagino.vercel.app",
+  },
+  {
+    id: 2,
+    title: "Streamvailable",
+    info: "Streamvailable is a website where you can check if a movie or serie is available in your country and in which stream platform",
+    front: "It was made with Next.js, Typescript and Tailwind",
+    frontDepends: ["Next.js", "Tailwind", "Typescript"],
+    color: "grey",
+    img: "streamvailable-preview.png",
+    github: "https://github.com/JuanSegundo7/Streamvailable",
+    demo: "https://streamvailable.vercel.app",
+  },
+  {
+    id: 3,
     title: "Loop Mania",
     info: "Loop mania is a Gif seeker where you can find Gifs of any topic, it has a trending system where you can see the most important gifs of the moment, also it has a bookmark and share system, so you can share it with anyone you want. You can look at your saved gifs in your profile",
     front:
@@ -19,7 +41,7 @@ const projects = [
     demo: "https://loop-mania.vercel.app/",
   },
   {
-    id: 2,
+    id: 4,
     title: "Tiger Coffee - HENRY",
     info: "Tiger Coffee is the final proyect that i made in Henry. Tiger Coffee is an ecommerce that we made in group, my responsability was the esthetic of the place and a lot of the front side, like html structure, dashboard, etc.",
     front:
@@ -33,7 +55,7 @@ const projects = [
     demo: "https://tigercoffee.vercel.app/",
   },
   {
-    id: 3,
+    id: 5,
     title: "PI DOGS - HENRY",
     info: "This is one of the final proyects that i made in Henry, in particular, this was a individual proyect in React with Redux and Postgresql, where they evaluated how were my skills in Front and Back with an Dogs Api - https://thedogapi.com/",
     front: "It was made with React Framework and Redux",
@@ -46,7 +68,7 @@ const projects = [
     demo: "https://pi-dogs-jsm.vercel.app//",
   },
   {
-    id: 4,
+    id: 6,
     title: "Rick and Morty Api",
     info: "Rick & Morty Api is a project where i practiced Api Fetch, using differents hooks like useEffect & useState, im very happy with the result because i did it in a few days only! Motivating myself to keep practicing React and all it structure",
     front:
@@ -58,7 +80,7 @@ const projects = [
     demo: "https://rick-and-morty-juanse.vercel.app/",
   },
   {
-    id: 5,
+    id: 7,
     title: "Colombus music",
     info: "Colombus music is a ecommerce project where i created the Front & Back sides in differents repositories, giving me the chance to practice the conextion between Front and Back with Apis. It was a challenge just for the fact of creating all from 0, Front (styles, components), Back (Entry Point, MVC, HTTP request, Connection with Database), Database (Sequelize) and Deploying it in Heroku",
     front:
