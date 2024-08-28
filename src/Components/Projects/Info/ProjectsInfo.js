@@ -1,6 +1,17 @@
 const projects = [
   {
     id: 1,
+    title: "Free Games",
+    info: "Free Games is a web search to get look for the best web or windows games available, the key of this project was to build a minimal design",
+    front: "It was made with Next.js, Typescript and Tailwind",
+    frontDepends: ["Next.js", "Tailwind", "Typescript"],
+    color: "grey",
+    img: "free-games-preview.png",
+    github: "https://github.com/JuanSegundo7/free-games",
+    demo: "https://free-games-jsm.vercel.app",
+  },
+  {
+    id: 1,
     title: "HiLink - Travel Camp",
     info: "HiLink is a Landing Page with the principles of UI/UX, it has the best front practices and a very good looking background",
     front: "It was made with Next.js, Typescript and Tailwind",
